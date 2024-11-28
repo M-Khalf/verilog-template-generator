@@ -3,21 +3,21 @@ A Python-based tool designed to simplify the creation of Verilog designs and tes
 
 ## Features
 
-- **Automated Code Generation**: Automatically generate Verilog templates for sequential and combinational designs.
-- **Customizable Inputs**: Choose the number of inputs and outputs, as well as design parameters.
-- **Testbench Creation**: Generate testbenches with user-defined test cases.
-- **Syntax Error-Free**: The tool ensures that all generated code is syntax-error free, reducing manual debugging time.
-- **Supports Sequential and Combinational Designs**: Select the design type based on your needs.
+- **Automated Code Generation:** Automatically generate Verilog templates for sequential and combinational designs.
+- **Customizable Inputs:** Choose the number of inputs and outputs, as well as design parameters.
+- **Testbench Creation:** Generate testbenches with user-defined test cases.
+- **Syntax Error-Free:** The tool ensures that all generated code is syntax-error free, reducing manual debugging time.
+- **Supports Sequential and Combinational Designs:** Select the design type based on your needs.
 
 ## Installation
 
-To install **VeriGen**, follow these steps:
+To install **verilog-template-generator**, follow these steps:
 
-1. **Clone the repository**:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/verilog-template-generator.git
 
-2. **Navigate to the project directory**:
+2. **Navigate to the project directory:**
    ```bash
    cd verilog-template-generator
 
@@ -33,17 +33,17 @@ To install **VeriGen**, follow these steps:
 3. **Answer the prompts:**
    The script will ask you a series of questions to define your Verilog design
 
-4. **Code Generation:**:
+4. **Code Generation:**
    Once you've answered the questions, verilog-template-generator will automatically generate.
 
-3. **Customization:**:
+3. **Customization:**
    The generated Verilog templates can be further customized to meet specific project requirements.
 
 ## Example
 
 Once you run the script, here's an example of what the generated files might look like:
 
-1. **Verilog Design (design.v): For a sequential design, the generated Verilog code could look like this:**:
+1. **Verilog Design (design.v): For a sequential design, the generated Verilog code could look like this:**
    ```
    module design(
 	input clk,
@@ -69,7 +69,7 @@ Once you run the script, here's an example of what the generated files might loo
    endmodule
    ```
 
-2. **Testbench (design_TB.v): A simple testbench for the design:**:
+2. **Testbench (design_TB.v): A simple testbench for the design:**
    ```
    module design_TB();
 
