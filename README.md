@@ -134,6 +134,8 @@ Contributions are welcome! If you'd like to improve the project or add new featu
 For any questions or issues, feel free to reach out to the project maintainer:
 
 Name: Mohamed Khalaf
+
 Email: khalafmohamed9821@gmail.com
+
 GitHub: @M-Khalf
 
